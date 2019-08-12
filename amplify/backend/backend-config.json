@@ -1,0 +1,14 @@
+{
+	"auth": {
+		"jasawebsitee9f5cc07": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"dynamo6c818b95": {
+			"service": "DynamoDB",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+<div class="login-page-content">
+  <div class="login-page-content__form row">
+    <div class="login-page-content__form__left-details">
+      <div class="login-page-content__form__left-details__header">
+        CAR BOOKING SYSTEM
+      </div>
+      <hr>
+      <p>This project is a kind of cab booking system where every user have his personalized account along with
+        real-time booking system. Server and client is managed on different systems, in order to get the fast response
+        for user, in case of heavy traffic on the server end. Server side script consists of all the logical part of the
+        project which includes Dijikstra's Algorithm to get the shortest path in real-time</p>
+      <!-- <app-signup></app-signup>  -->
+    </div>
+    <div class="login-page-content__form__right-form">
+      <div class="login-page-content__form__right-form__header">
+        CAR BOOKING LOGIN
+      </div>
+      <hr>
+      <div class="login-page-content__form__right-form__form-detail">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <input matInput placeholder="Email" formControlName = "username">
+            <input matInput placeholder="Password" formControlName = "password">
+            <button type="submit" [disabled]="!loginForm.valid">Login</button>
+        </form>
+        
+      </div> 
+    </div>
+  </div>
+</div>

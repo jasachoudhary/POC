@@ -1,0 +1,19 @@
+{
+    "jasaapp": {
+        "awscloudformation": {
+            "AuthRoleName": "jasawebsite-jasaapp-20190811180243-authRole",
+            "UnauthRoleArn": "arn:aws:iam::587189233097:role/jasawebsite-jasaapp-20190811180243-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::587189233097:role/jasawebsite-jasaapp-20190811180243-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "jasawebsite-jasaapp-20190811180243-deployment",
+            "UnauthRoleName": "jasawebsite-jasaapp-20190811180243-unauthRole",
+            "StackName": "jasawebsite-jasaapp-20190811180243",
+            "StackId": "arn:aws:cloudformation:us-east-1:587189233097:stack/jasawebsite-jasaapp-20190811180243/1eeab3d0-bc34-11e9-a732-0a00a1b75a8c"
+        },
+        "categories": {
+            "auth": {
+                "jasawebsitee9f5cc07": {}
+            }
+        }
+    }
+}
